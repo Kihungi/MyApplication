@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "147936569007",
+    "firebase_url": "https://myapplication-28141.firebaseio.com",
+    "project_id": "myapplication-28141",
+    "storage_bucket": "myapplication-28141.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147936569007:android:5137c0c945c08f83",
+        "android_client_info": {
+          "package_name": "com.example.ironlady.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147936569007-h8die4sqkn3q33lkvicr8mqkb80l8tlr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6NUMFzaKiXnN0JPIt6EosQJYRxXYeiDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

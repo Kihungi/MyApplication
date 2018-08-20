@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityPage">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+ <RelativeLayout
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_type_here"
+        android:textSize="20dp"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:background="@android:color/darker_gray"/>
+
+     <TextView
+         android:id="@+id/TextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="50dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_SAVE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_LOAD"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
